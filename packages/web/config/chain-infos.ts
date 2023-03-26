@@ -777,6 +777,17 @@ const chainInfos = (
           coinGeckoId: "pool:fox",
           coinImageUrl: "/tokens/fox.svg",
         },
+        {
+          type: "cw20",
+          contractAddress:
+            "juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x",
+          coinDenom: "AQUA",
+          coinMinimalDenom:
+            "cw20:juno1u8cr3hcjvfkzxcaacv9q75uw9hwjmn8pucc93pmy6yvkzz79kh3qncca8x:FOX",
+          coinDecimals: 6,
+          coinGeckoId: "pool:aqua",
+          coinImageUrl: "/tokens/aqua.svg",
+         },
       ],
       features: ["ibc-transfer", "ibc-go", "wasmd_0.24+", "cosmwasm"],
       explorerUrlToTx: "https://www.mintscan.io/juno/txs/{txHash}",
